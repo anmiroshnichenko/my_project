@@ -5,5 +5,5 @@
     git commit -am "update README.md"    добавлени е и commit одной командой 
     git log  --oneline   посмотреть историю в одну строку 
     git log     посмотреть полную  историю 
-    
+    2024y
 
