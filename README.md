@@ -51,5 +51,6 @@
   ###  Сливать изминения из одной ветки в другую (из ветки new-branch >  в ветку main)
       git checkout main 
       git merge new-branch
+      git commit -am 'Conflict resolved'
 
 
