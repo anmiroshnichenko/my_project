@@ -34,9 +34,10 @@
     git push -u origin main   
     git push -u origin new-branch
   ### Настроить разрешения для ssh ключа 
-    	chmod 600 ~/.ssh/id_rsa
+      chmod 600 ~/.ssh/id_rsa
+
 ## Клонировать репозиторий
-	  git clone git@github.com:anmiroshnichenko/my_project.git	
+    git clone git@github.com:anmiroshnichenko/my_project.git
 
 ## Ветвление в Git
   ### Посмотреть существующие ветки в репозитории
