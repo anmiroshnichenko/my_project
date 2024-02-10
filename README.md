@@ -1,14 +1,13 @@
 ##  Глобальные настроки
-
     git config --global user.name "Aleksandr Miroshnichenko"
     git config --global user.email "alexand.miroshnichenko@yandex.ru"
     git config --global --list 
 
-    ## Правильное окончание строк для Linux, Mac OS
+## Правильное окончание строк для Linux, Mac OS
     git config --global core.autocrlf input 
     git config --global core.safecrlf warn
     
-    ##  ДЛЯ WINDOWS  
+##  ДЛЯ WINDOWS  
     git config --global core.autocrlf true
     git config --global core.safecrlf warn
 
@@ -33,9 +32,12 @@
     git remote -v  проверить  связь с удаленным репозиторием
     git remote add origin git@github.com:anmiroshnichenko/my_project.git     - связать с удаленным репозиторием
     git push -u origin main   
+   git push -u origin new-branch
 		chmod 600 ~/.ssh/id_rsa - настроить  разрешения для ключа 
+
 ## Клонировать репозиторий
 	git clone git@github.com:anmiroshnichenko/my_project.git	
+<<<<<<< HEAD
 ## Ветвление в Git
   ### Посмотреть существующие ветки в репозитории
 	git branch
@@ -43,3 +45,19 @@
 	git branch  new-branch  
   ### Переключится на новую ветку
 	git checkout new-branch 
+=======
+
+## Ветвление в Git
+  ### Посмотреть существующие ветки в репозитории
+        git branch
+  ### Создать новую ветку
+        git branch  new-branch  
+  ### Переключится на новую ветку
+        git checkout new-branch 
+  ### Просмотр истории проекта в новой ветке 
+        git log new-branch --oneline
+  ###  Сливать изминения из одной ветки в другую (из ветки new-branch >  в ветку main)
+        git checkout main 
+        git merge new-branch
+
+>>>>>>> new-branch
