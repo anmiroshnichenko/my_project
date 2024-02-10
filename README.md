@@ -31,9 +31,12 @@
     git checkout main   -вернутся на пследний коммит
     git remote -v  проверить  связь с удаленным репозиторием
     git remote add origin git@github.com:anmiroshnichenko/my_project.git     - связать с удаленным репозиторием
+###  Настроить  разрешения для ssh ключа 
+    chmod 600 ~/.ssh/id_rsa
+      
     git push -u origin main   
     git push -u origin new-branch
-		chmod 600 ~/.ssh/id_rsa - настроить  разрешения для ключа 
+		 
 
 ## Клонировать репозиторий
 	git clone git@github.com:anmiroshnichenko/my_project.git	
