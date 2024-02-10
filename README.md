@@ -41,3 +41,10 @@
 		chmod 600 ~/.ssh/id_rsa - настроить  разрешения для ключа 
 ## Клонировать репозиторий
 	git clone git@github.com:anmiroshnichenko/my_project.git	
+## Ветвление в Git
+  ### Посмотреть существующие ветки в репозитории
+	git branch
+  ### Создать новую ветку 
+	git branch  new-branch  
+  ### Переключится на новую ветку
+	git checkout new-branch 
