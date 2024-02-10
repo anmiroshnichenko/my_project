@@ -33,24 +33,22 @@
     git remote add origin git@github.com:anmiroshnichenko/my_project.git     - связать с удаленным репозиторием
     git push -u origin main   
     git push -u origin new-branch
-  ###  Настроить разрешения для ssh ключа 
-    	  chmod 600 ~/.ssh/id_rsa
-		 
-
+  ### Настроить разрешения для ssh ключа 
+    	chmod 600 ~/.ssh/id_rsa
 ## Клонировать репозиторий
-	git clone git@github.com:anmiroshnichenko/my_project.git	
+	  git clone git@github.com:anmiroshnichenko/my_project.git	
 
 ## Ветвление в Git
   ### Посмотреть существующие ветки в репозитории
-        git branch
+      git branch
   ### Создать новую ветку
-        git branch  new-branch  
+      git branch  new-branch  
   ### Переключится на новую ветку
-        git checkout new-branch 
+      git checkout new-branch 
   ### Просмотр истории проекта в новой ветке 
-        git log new-branch --oneline
+      git log new-branch --oneline
   ###  Сливать изминения из одной ветки в другую (из ветки new-branch >  в ветку main)
-        git checkout main 
-        git merge new-branch
+      git checkout main 
+      git merge new-branch
 
 
